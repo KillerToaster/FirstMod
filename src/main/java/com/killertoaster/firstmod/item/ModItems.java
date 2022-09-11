@@ -14,7 +14,7 @@ public class ModItems
                 DeferredRegister.create(ForgeRegistries.ITEMS, FirstMod.MOD_ID);
 
         public static final RegistryObject<Item> ZIRCON = ITEMS.register("zircon",
-                () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC))); //bus: is lowercase and this adds it to a creative mode tab
+                () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FIRSTMOD_TAB))); //bus: is lowercase and this adds it to a creative mode tab
 
         public static final RegistryObject<Item> RAW_ZIRCON = ITEMS.register("raw_zircon",
                 () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
